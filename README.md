@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚛 Karizma Nakliyat - Kurumsal Lojistik Web Sitesi
 
-## Getting Started
+Karizma Nakliyat, 20 yılı aşkın tecrübesiyle şehirlerarası taşımacılık ve lojistik alanında profesyonel hizmetler sunan köklü bir firmadır. Bu proje, markanın dijital yüzünü modern web teknolojileriyle yeniden tasarlamak amacıyla geliştirilmiştir.
 
-First, run the development server:
+## 🧩 Proje Özeti
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Bu kurumsal web sitesi projesi, **şirketin hizmetlerini tanıtmak**, **referanslarını sergilemek** ve **müşteri etkileşimini artırmak** amacıyla kullanıcı dostu, hızlı ve SEO uyumlu bir yapıda inşa edilmiştir. Aynı zamanda geliştirici olarak bu proje, **ilk maddi kazancımı elde ettiğim** profesyonel işim olması açısından benim için özel bir yere sahiptir.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Özellikler
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🔷 Ana sayfa, hakkımızda, hizmetler, belgeler ve iletişim bölümleri
+- 📱 Responsive tasarım (mobil uyumlu)
+- 🖼️ Optimizasyon dostu görsel sistemi
+- 🧭 SEO ve performans odaklı Next.js altyapısı
+- 📧 İletişim formu ve teklif alma özelliği
+- 🪪 Yetki belgeleri ve referans listesi
+- 🌐 Statik export (Next.js + `output: export`)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Kullanılan Teknolojiler
 
-## Learn More
+- **Next.js**  (Statik site üretimi için)
+- **React** & **TypeScript**
+- **Tailwind CSS** (Tasarım ve responsive yapı)
+- **Lucide Icons** (Modern ikon seti)
+- **Shadcn/ui** (Bileşen kütüphanesi)
 
-To learn more about Next.js, take a look at the following resources:
+## 🖼️ Ekran Görüntüleri
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> Ekranlar eklenecektir...
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌐 Canlı Proje
 
-## Deploy on Vercel
+> [https://www.karizmanakliyat.com.tr/]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧑‍💻 Geliştirici
+
+Bu proje,  
+📌 **Serhat Uzun** tarafından geliştirilmiştir.  
+🚀 Dijital dönüşümde yer almak ve markaların online varlığını güçlendirmek için üretmeye devam ediyorum.
+
+---
+
