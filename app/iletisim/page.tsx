@@ -1,11 +1,13 @@
-import { Mail, Phone, MapPin, Clock } from "lucide-react"
+import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export default function ContactPage() {
   return (
     <div className="bg-gray-50 py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">İletişim</h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
+            İletişim
+          </h1>
 
           {/* Contact Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
@@ -14,8 +16,11 @@ export default function ContactPage() {
                 <Phone className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Telefon</h3>
-              <a href="tel:+905551234567" className="text-gray-600 hover:text-blue-600 transition-colors">
-                +90 555 123 4567
+              <a
+                href="tel:+905330367300"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
+              >
+                +90 533 036 7300
               </a>
             </div>
 
@@ -37,7 +42,7 @@ export default function ContactPage() {
                 <Clock className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Çalışma Saatleri</h3>
-              <p className="text-gray-600">Pazartesi - Cumartesi: 09:00 - 18:00</p>
+              <p className="text-gray-600">Pazartesi - Cuma: 08:00 - 18:00</p>
             </div>
           </div>
 
@@ -49,7 +54,10 @@ export default function ContactPage() {
                 <h2 className="text-2xl font-semibold mb-6">Bize Ulaşın</h2>
                 <form>
                   <div className="mb-4">
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                    <label
+                      htmlFor="name"
+                      className="block text-sm font-medium text-gray-700 mb-1"
+                    >
                       Adınız Soyadınız
                     </label>
                     <input
@@ -61,7 +69,10 @@ export default function ContactPage() {
                   </div>
 
                   <div className="mb-4">
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium text-gray-700 mb-1"
+                    >
                       E-posta Adresiniz
                     </label>
                     <input
@@ -73,7 +84,10 @@ export default function ContactPage() {
                   </div>
 
                   <div className="mb-4">
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+                    <label
+                      htmlFor="phone"
+                      className="block text-sm font-medium text-gray-700 mb-1"
+                    >
                       Telefon Numaranız
                     </label>
                     <input
@@ -85,7 +99,10 @@ export default function ContactPage() {
                   </div>
 
                   <div className="mb-4">
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+                    <label
+                      htmlFor="message"
+                      className="block text-sm font-medium text-gray-700 mb-1"
+                    >
                       Mesajınız
                     </label>
                     <textarea
@@ -105,22 +122,23 @@ export default function ContactPage() {
                 </form>
               </div>
 
-              {/* Map */}
-              <div className="bg-gray-200 min-h-[300px] md:min-h-full flex items-center justify-center">
-                <div className="text-center p-6">
-                  <MapPin className="w-8 h-8 text-blue-600 mx-auto mb-3" />
-                  <h3 className="text-lg font-semibold mb-2">Adresimiz</h3>
-                  <p className="text-gray-600 mb-4">
-                    Örnek Mahallesi, Örnek Sokak No:123, <br />
-                    İstanbul, Türkiye
-                  </p>
-                  <p className="text-sm text-gray-500">(Harita entegrasyonu için Google Maps API kullanılabilir)</p>
-                </div>
+              <div className="w-full h-full">
+                <iframe
+                  title="Harita"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6012.036616419611!2d28.6655143!3d40.9945591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55f00448b6e9d%3A0x6ad7c7a4e2d6206!2sYakuplu%2C%2064.%20Sk.%20No%3A54%2C%2034500%20Beylikd%C3%BCz%C3%BC%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1683546000000!5m2!1str!2str"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="rounded-lg w-full h-[300px] md:h-full"
+                ></iframe>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

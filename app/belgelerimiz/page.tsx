@@ -3,51 +3,34 @@ import { FileText, Download, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function CertificatesPage() {
-  // Yetki belgeleri listesi
   const certificates = [
     {
       id: "k1",
       title: "K1 Yetki Belgesi",
-      description: "Yurtiçi ticari eşya taşımacılığı yapacak gerçek ve tüzel kişilere verilen yetki belgesidir.",
+      description: "Yurtiçi ticari eşya taşımacılığı yapacak firmalara verilen resmi yetki belgesidir.",
       image: "/images/certificates/k1-belgesi.jpg",
-      validUntil: "31.12.2025",
+      validUntil: "16/12/2027",
     },
     {
       id: "k2",
-      title: "K2 Yetki Belgesi",
-      description: "Yurtiçi ticari eşya taşımacılığı yapacak gerçek ve tüzel kişilere verilen yetki belgesidir.",
-      image: "/images/certificates/k2-belgesi.jpg",
-      validUntil: "15.06.2024",
+      title: "TIO Yetki Belgesi",
+      description: "Taşıma işleri organizatörlüğü yapacak firmalar için düzenlenmiş yetki belgesidir.",
+      image: "/images/certificates/tio-belgesi.png",
+      validUntil: "10/10/2032",
     },
     {
       id: "c2",
-      title: "C2 Yetki Belgesi",
-      description:
-        "Uluslararası ve yurtiçi eşya taşımacılığı yapacak gerçek ve tüzel kişilere verilen yetki belgesidir.",
-      image: "/images/certificates/c2-belgesi.jpg",
-      validUntil: "10.09.2026",
+      title: "Emtia Taşıma Belgesi",
+      description: "Yurtiçi ve uluslararası emtia taşımacılığı yapacak firmalara verilen resmi belge.",
+      image: "/images/certificates/emtia-belgesi.png",
+      validUntil: "10.09.2046",
     },
     {
       id: "l1",
-      title: "L1 Yetki Belgesi",
-      description: "Yurtiçi lojistik işletmeciliği yapacak gerçek ve tüzel kişilere verilen yetki belgesidir.",
-      image: "/images/certificates/l1-belgesi.jpg",
-      validUntil: "22.03.2025",
-    },
-    {
-      id: "l2",
-      title: "L2 Yetki Belgesi",
-      description:
-        "Uluslararası ve yurtiçi lojistik işletmeciliği yapacak gerçek ve tüzel kişilere verilen yetki belgesidir.",
-      image: "/images/certificates/l2-belgesi.jpg",
-      validUntil: "05.11.2024",
-    },
-    {
-      id: "iso9001",
-      title: "ISO 9001:2015 Kalite Yönetim Sistemi",
-      description: "Uluslararası standartlara uygun kalite yönetim sistemimizin belgelenmesidir.",
-      image: "/images/certificates/iso9001.jpg",
-      validUntil: "18.07.2025",
+      title: "Ticaret Odası Kayıt Belgesi",
+      description: "Firmanın ticaret odasına kayıtlı olduğunu gösteren resmi belgedir.",
+      image: "/images/certificates/ticaret-belgesi.png",
+      validUntil: "22.03.2045",
     },
   ]
 
@@ -80,13 +63,26 @@ export default function CertificatesPage() {
                       <span>Geçerlilik Tarihi: {certificate.validUntil}</span>
                     </div>
                     <div className="flex flex-wrap gap-3">
-                      <Button className="bg-blue-600 hover:bg-blue-700">
-                        <Download className="w-4 h-4 mr-2" />
-                        Belgeyi İndir
+                      <Button className="bg-blue-600 hover:bg-blue-700 px-4">
+                        <a
+                          href={certificate.image}
+                          download
+                          className="flex items-center text-white"
+                        >
+                          <Download className="w-4 h-4 mr-2" />
+                          Belgeyi İndir
+                        </a>
                       </Button>
-                      <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Belgeyi Görüntüle
+                      <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-4">
+                        <a
+                          href={certificate.image}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center"
+                        >
+                          <ExternalLink className="w-4 h-4 mr-2" />
+                          Belgeyi Görüntüle
+                        </a>
                       </Button>
                     </div>
                   </div>
@@ -98,13 +94,11 @@ export default function CertificatesPage() {
           <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6">
             <h3 className="text-xl font-bold mb-4 text-gray-800">Belgelerimiz Hakkında</h3>
             <p className="text-gray-600 mb-4">
-              Karizma Nakliyat olarak, Ulaştırma ve Altyapı Bakanlığı tarafından verilen tüm gerekli yetki belgelerine
-              sahibiz. Bu belgeler, taşımacılık faaliyetlerimizi yasal çerçevede yürüttüğümüzün ve belirli standartları
-              karşıladığımızın resmi kanıtıdır.
+              Karizma Nakliyat olarak, Ulaştırma ve Altyapı Bakanlığı tarafından verilen tüm gerekli yetki belgelerine sahibiz.
+              Bu belgeler, taşımacılık faaliyetlerimizi yasal çerçevede yürüttüğümüzün ve belirli standartları karşıladığımızın resmi kanıtıdır.
             </p>
             <p className="text-gray-600">
-              Yetki belgelerimiz düzenli olarak denetlenmekte ve yenilenmektedir. Müşterilerimiz, yasal gerekliliklere
-              uygun şekilde hizmet aldıklarından emin olabilirler.
+              Yetki belgelerimiz düzenli olarak denetlenmekte ve yenilenmektedir. Müşterilerimiz, yasal gerekliliklere uygun şekilde hizmet aldıklarından emin olabilirler.
             </p>
           </div>
         </div>

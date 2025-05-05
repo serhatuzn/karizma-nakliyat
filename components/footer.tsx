@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <Image
-              src="/images/logo-white.png"
+              src="/icon.svg"
               alt="Karizma Nakliyat Logo"
               width={180}
               height={50}
@@ -23,7 +23,7 @@ export default function Footer() {
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/karizmagrouppp/" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -111,12 +111,12 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-gray-400 mt-0.5" />
-                <span className="text-gray-400">Örnek Mahallesi, Örnek Sokak No:123, İstanbul, Türkiye</span>
+                <span className="text-gray-400">Yakuplu Mahallesi, 64. Sokak No:54, İstanbul, Türkiye</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-gray-400" />
                 <a href="tel:+905551234567" className="text-gray-400 hover:text-white transition-colors">
-                  +90 555 123 4567
+                  +90 533 036 7300
                 </a>
               </li>
               <li className="flex items-center gap-3">

@@ -93,7 +93,7 @@ export default function HomePage() {
             <div className="group bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
               <div className="relative h-56 overflow-hidden">
                 <Image
-                  src="/images/sehirlerarasi.jpg"
+                  src="/images/sehirler-arasi.png"
                   alt="Şehirlerarası Taşımacılık"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -269,43 +269,6 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-
-            {/* Hizmet 6 */}
-            <div className="group bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-              <div className="relative h-56 overflow-hidden">
-                <Image
-                  src="/images/uluslararası.jpg"
-                  alt="Uluslararası Taşımacılık"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div className="absolute bottom-4 left-4 right-4">
-                  <h3 className="text-xl font-bold text-white">Uluslararası Taşımacılık</h3>
-                </div>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-600 mb-4">
-                  Dünya genelinde kapıdan kapıya taşımacılık hizmeti. Gümrük işlemleri ve uluslararası lojistik
-                  çözümleri.
-                </p>
-                <Link
-                  href="/hizmetlerimiz/uluslararasi-tasima"
-                  className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center"
-                >
-                  Detaylı Bilgi
-                  <svg
-                    className="w-4 h-4 ml-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
           </div>
 
           <div className="text-center mt-12">
@@ -356,16 +319,6 @@ export default function HomePage() {
               <p className="text-gray-600">
                 Düzenli bakımı yapılan, modern ve geniş araç filomuzla her türlü taşımacılık ihtiyacınıza çözüm
                 sunuyoruz.
-              </p>
-            </div>
-
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                <Globe className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Uluslararası Hizmet</h3>
-              <p className="text-gray-600">
-                Türkiye'nin yanı sıra, dünya genelinde birçok ülkeye taşımacılık hizmeti veriyoruz.
               </p>
             </div>
 
@@ -479,13 +432,12 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">K1 Yetki Belgesi</div>
-            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">K2 Yetki Belgesi</div>
-            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">C2 Yetki Belgesi</div>
-            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">L1 Yetki Belgesi</div>
-            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">L2 Yetki Belgesi</div>
+            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">Tio Yetki Belgesi</div>
+            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">Ticaret Odası Belgesi</div>
+            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">Emtia Taşıma Belgesi</div>
           </div>
           <Button className="bg-white text-blue-700 hover:bg-gray-100">
-            <Link href="/yetki-belgeleri">Belgelerimizi İnceleyin</Link>
+            <Link href="/belgelerimiz">Belgelerimizi İnceleyin</Link>
           </Button>
         </div>
       </section>
@@ -504,7 +456,7 @@ export default function HomePage() {
                 <div className="flex flex-col md:flex-row gap-4">
                   <div className="flex items-center gap-2">
                     <PhoneCall className="w-5 h-5" />
-                    <span>+90 555 123 4567</span>
+                    <span>+90 533 036 7300</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Mail className="w-5 h-5" />
@@ -565,7 +517,6 @@ export default function HomePage() {
                       <option value="konteyner">Konteyner Taşımacılığı</option>
                       <option value="proje">Proje Taşımacılığı</option>
                       <option value="depolama">Depolama Hizmetleri</option>
-                      <option value="uluslararasi">Uluslararası Taşımacılık</option>
                     </select>
                   </div>
                   <div>

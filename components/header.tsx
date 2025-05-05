@@ -107,13 +107,6 @@ export default function Header() {
                       Depolama Hizmetleri
                     </Link>
                     <Link
-                      href="/hizmetlerimiz/uluslararasi-tasima"
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md"
-                      onClick={() => setIsDesktopServicesOpen(false)}
-                    >
-                      Uluslararası Taşımacılık
-                    </Link>
-                    <Link
                       href="/hizmetlerimiz"
                       className="block px-4 py-2 text-sm text-blue-600 font-medium hover:bg-blue-50 rounded-md"
                       onClick={() => setIsDesktopServicesOpen(false)}
@@ -157,25 +150,31 @@ export default function Header() {
                 <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden">
                   <div className="p-2">
                     <Link
-                      href="/belgelerimiz/k1-belgesi"
+                      href="/belgelerimiz"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md"
                       onClick={() => setIsDesktopDocsOpen(false)}
                     >
                       K1 Yetki Belgesi
                     </Link>
                     <Link
-                      href="/belgelerimiz/k2-belgesi"
+                      href="/belgelerimiz"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md"
                       onClick={() => setIsDesktopDocsOpen(false)}
                     >
-                      K2 Yetki Belgesi
+                      Tio Yeki Belgesi
                     </Link>
                     <Link
-                      href="/belgelerimiz/c2-belgesi"
+                      href="/belgelerimiz"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md"
                       onClick={() => setIsDesktopDocsOpen(false)}
                     >
-                      C2 Yetki Belgesi
+                      Emtia Taşıma Belgesi
+                    </Link>                    <Link
+                      href="/belgelerimiz"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md"
+                      onClick={() => setIsDesktopDocsOpen(false)}
+                    >
+                      Ticaret Odası Belgesi
                     </Link>
                     <Link
                       href="/belgelerimiz"
@@ -189,6 +188,14 @@ export default function Header() {
               )}
             </div>
 
+            {/* Galeri Button */}
+            <Link
+              href="/galeri"
+              className="text-gray-800 hover:text-blue-600 font-medium px-3 py-2 rounded-md hover:bg-gray-50"
+            >
+              Galeri
+            </Link>
+
             <Link
               href="/iletisim"
               className="text-gray-800 hover:text-blue-600 font-medium px-3 py-2 rounded-md hover:bg-gray-50"
@@ -201,7 +208,7 @@ export default function Header() {
           <div className="hidden md:flex items-center">
             <Button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors flex items-center gap-2">
               <Phone className="w-4 h-4" />
-              <a href="tel:+905551234567">Hemen Ara</a>
+              <a href="tel:+905330367300">Hemen Ara</a>
             </Button>
           </div>
 

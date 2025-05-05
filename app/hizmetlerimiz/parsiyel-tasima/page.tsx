@@ -423,8 +423,8 @@ export default function PartialTransportPage() {
                       <Phone className="w-5 h-5 text-blue-600 mt-0.5" />
                       <div>
                         <p className="font-medium text-gray-800">Telefon</p>
-                        <a href="tel:+905551234567" className="text-blue-600 hover:underline">
-                          +90 555 123 4567
+                        <a href="tel:+905330367300" className="text-blue-600 hover:underline">
+                        +90 533 036 7300
                         </a>
                       </div>
                     </div>
@@ -432,7 +432,7 @@ export default function PartialTransportPage() {
                       <Clock className="w-5 h-5 text-blue-600 mt-0.5" />
                       <div>
                         <p className="font-medium text-gray-800">Çalışma Saatleri</p>
-                        <p className="text-gray-600">Pazartesi - Cumartesi: 09:00 - 18:00</p>
+                        <p className="text-gray-600">Pazartesi - Cuma: 08:00 - 18:00</p>
                       </div>
                     </div>
                   </div>
@@ -451,7 +451,7 @@ export default function PartialTransportPage() {
             <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <div className="relative h-48">
                 <Image
-                  src="/images/sehirlerarasi-tasima.jpg"
+                  src="/images/sehirler-arasi.png"
                   alt="Şehirlerarası Taşımacılık"
                   fill
                   className="object-cover"
@@ -485,7 +485,7 @@ export default function PartialTransportPage() {
 
             <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <div className="relative h-48">
-                <Image src="/images/konteyner-tasima.jpg" alt="Konteyner Taşımacılığı" fill className="object-cover" />
+                <Image src="/images/konteyner.jpg" alt="Konteyner Taşımacılığı" fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4">
                   <h3 className="text-xl font-bold text-white">Konteyner Taşımacılığı</h3>
@@ -515,7 +515,7 @@ export default function PartialTransportPage() {
 
             <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <div className="relative h-48">
-                <Image src="/images/proje-tasima.jpg" alt="Proje Taşımacılığı" fill className="object-cover" />
+                <Image src="/images/proje.jpg" alt="Proje Taşımacılığı" fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4">
                   <h3 className="text-xl font-bold text-white">Proje Taşımacılığı</h3>
@@ -558,9 +558,9 @@ export default function PartialTransportPage() {
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
               <Link href="/iletisim">Teklif Alın</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/10">
               <Phone className="mr-2 h-4 w-4" />
-              <a href="tel:+905551234567">+90 555 123 4567</a>
+              <a href="tel:+905330367300">+90 533 036 7300</a>
             </Button>
           </div>
         </div>
