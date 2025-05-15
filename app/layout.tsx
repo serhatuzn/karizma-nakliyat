@@ -9,9 +9,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Karizma Nakliyat - Güvenilir Ev ve Ofis Taşıma Hizmetleri",
+  title: "Karizma Nakliyat - Lojistik ve Taşımacılık",
   description:
-    "Karizma Nakliyat ile ev, ofis ve eşya taşıma hizmetlerinde profesyonel çözümler. 20 yılı aşkın tecrübe ile İstanbul ve tüm Türkiye'de hizmetinizdeyiz.",
+    "Karizma Nakliyat, taşımacılık ve lojistik alanında kapsamlı çözümler sunan güvenilir bir hizmet sağlayıcısıdır. Türkiye genelinde karayolu taşımacılığı, proje taşımacılığı, konteyner hizmetleri ve daha fazlası.",
 }
 
 export default function RootLayout({

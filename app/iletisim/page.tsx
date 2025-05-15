@@ -1,3 +1,5 @@
+"use client";
+
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export default function ContactPage() {
@@ -52,7 +54,36 @@ export default function ContactPage() {
               {/* Contact Form */}
               <div className="p-6 md:p-8">
                 <h2 className="text-2xl font-semibold mb-6">Bize Ulaşın</h2>
-                <form>
+                <form
+                onSubmit={async (e) => {
+                    e.preventDefault();
+                    const form = e.currentTarget;
+
+                    const data = {
+                      name: (form.querySelector("#name") as HTMLInputElement)
+                        .value,
+                      phone: (form.querySelector("#phone") as HTMLInputElement)
+                        .value,
+                      email: (form.querySelector("#email") as HTMLInputElement)
+                        .value,
+                      message: (
+                        form.querySelector("#message") as HTMLTextAreaElement
+                      ).value,
+                    };
+
+                    const res = await fetch("/api/send-contact-mail", {
+                      method: "POST",
+                      headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify(data),
+                    });
+
+                    if (res.ok) {
+                      alert("Teklif formunuz başarıyla gönderildi!");
+                      form.reset();
+                    } else {
+                      alert("Bir hata oluştu. Lütfen tekrar deneyin.");
+                    }
+                  }}>
                   <div className="mb-4">
                     <label
                       htmlFor="name"

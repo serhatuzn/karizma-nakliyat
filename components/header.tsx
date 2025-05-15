@@ -285,13 +285,6 @@ export default function Header() {
                       Depolama Hizmetleri
                     </Link>
                     <Link
-                      href="/hizmetlerimiz/uluslararasi-tasima"
-                      className="block py-2 px-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-md"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      Uluslararası Taşımacılık
-                    </Link>
-                    <Link
                       href="/hizmetlerimiz"
                       className="block py-2 px-3 text-sm text-blue-600 font-medium hover:bg-blue-50 rounded-md"
                       onClick={() => setIsMenuOpen(false)}

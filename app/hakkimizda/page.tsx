@@ -20,7 +20,7 @@ export default function AboutPage() {
             <div className="p-8 lg:p-12">
               <h2 className="text-2xl font-bold mb-6">Biz Kimiz?</h2>
               <p className="text-gray-600 mb-4">
-                Karizma Nakliyat, 2000 yılında İstanbul'da kurulmuş, ev ve ofis taşımacılığı alanında uzmanlaşmış bir
+                Karizma Nakliyat, 1998 yılında İstanbul'da kurulmuş, ev ve ofis taşımacılığı alanında uzmanlaşmış bir
                 nakliyat firmasıdır. Kurulduğumuz günden bu yana müşteri memnuniyetini ön planda tutarak, güvenilir ve
                 kaliteli hizmet sunmayı ilke edindik.
               </p>
