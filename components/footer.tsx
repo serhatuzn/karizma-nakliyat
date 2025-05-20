@@ -17,7 +17,7 @@ export default function Footer() {
               className="h-12 w-auto mb-4"
             />
             <p className="text-gray-400 mb-4">
-              20 yılı aşkın tecrübemizle ev ve ofis taşımacılığında güvenilir çözüm ortağınız.
+              20 yılı aşkın tecrübemizle taşımacılıkta güvenilir çözüm ortağınız.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
