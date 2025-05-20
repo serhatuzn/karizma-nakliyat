@@ -430,7 +430,7 @@ export default function HomePage() {
               </p>
               <p className="text-lg text-gray-600 mb-8">
                 Modern araç filomuz, uzman kadromuz ve teknolojik altyapımız ile
-                ev ve ofis taşımacılığından uluslararası lojistik çözümlere
+                konteyner, proje ve parsiyel taşımacılığından uluslararası lojistik çözümlere
                 kadar geniş bir hizmet yelpazesi sunuyoruz.
               </p>
 

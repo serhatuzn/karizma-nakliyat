@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.karizmanakliyat.com.tr
+
+# Sitemaps
+Sitemap: https://www.karizmanakliyat.com.tr/sitemap.xml

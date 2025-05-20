@@ -10,7 +10,7 @@ export default function ServicesPage() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Hizmetlerimiz</h1>
           <p className="text-lg text-gray-600">
-            Karizma Nakliyat olarak ev ve ofis taşımacılığında profesyonel çözümler sunuyoruz. Deneyimli ekibimiz ve
+            Karizma Nakliyat olarak konteyner, proje, parsiyel taşımacılığında profesyonel çözümler sunuyoruz. Deneyimli ekibimiz ve
             modern araç filomuzla hizmetinizdeyiz.
           </p>
         </div>
@@ -21,7 +21,7 @@ export default function ServicesPage() {
           {/* Service 1 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
             <div className="relative h-48">
-              <Image src="/images/sehirler-arasi.png" alt="Ev Taşıma Hizmeti" fill className="object-cover" />
+              <Image src="/images/sehirler-arasi.png" alt="Sehirlerarası Taşıma Hizmeti" fill className="object-cover" />
             </div>
             <div className="p-6">
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
@@ -29,8 +29,7 @@ export default function ServicesPage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Şehirlerarası Taşımacılık</h3>
               <p className="text-gray-600 mb-4">
-                Evinizi güvenle ve özenle yeni adresinize taşıyoruz. Eşyalarınız bizimle güvende. Paketleme, taşıma ve
-                yerleştirme hizmetleri sunuyoruz.
+                Yükünüzü güvenle ve özenle belirttiğiniz konuma taşıyoruz. Yükleriniz bizimle güvende.
               </p>
               <Link
                 href="/hizmetlerimiz/sehirlerarasi-tasima"

@@ -10,7 +10,7 @@ export default function AboutPage() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Hakkımızda</h1>
           <p className="text-lg text-gray-600">
-            Karizma Nakliyat olarak 20 yılı aşkın süredir ev ve ofis taşımacılığında kaliteli hizmet sunuyoruz.
+            Karizma Nakliyat olarak 20 yılı aşkın süredir konteyner, proje, parsiyel taşımacılığında kaliteli hizmet sunuyoruz.
           </p>
         </div>
 
@@ -25,13 +25,13 @@ export default function AboutPage() {
                 kaliteli hizmet sunmayı ilke edindik.
               </p>
               <p className="text-gray-600 mb-4">
-                Deneyimli ekibimiz ve modern araç filomuzla, Türkiye'nin her noktasına ve yurtdışına taşımacılık hizmeti
-                veriyoruz. Eşyalarınızı kendi eşyalarımız gibi özenle taşıyor, her aşamada profesyonel çözümler
+                Deneyimli ekibimiz ve modern araç filomuzla, Türkiye'nin her noktasına taşımacılık hizmeti
+                veriyoruz. yüklerinizi sorunsuz ve özenle taşıyor, her aşamada profesyonel çözümler
                 sunuyoruz.
               </p>
               <p className="text-gray-600 mb-6">
                 Karizma Nakliyat olarak amacımız, taşınma sürecini sizin için stressiz ve sorunsuz hale getirmektir. Bu
-                doğrultuda, paketlemeden yerleştirmeye kadar tüm süreçlerde yanınızda oluyoruz.
+                doğrultuda, yüklemeden tüm süreçlere kadar yanınızda oluyoruz.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -122,7 +122,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-4">Misyonumuz</h2>
             <p className="text-gray-600 mb-4">
               Karizma Nakliyat olarak misyonumuz, müşterilerimize en kaliteli, güvenilir ve uygun fiyatlı taşımacılık
-              hizmetini sunmaktır. Eşyalarınızı özenle taşıyarak, taşınma sürecini sizin için stressiz ve sorunsuz hale
+              hizmetini sunmaktır.Karizma Nakliyat olarak taşınma sürecini sizin için stressiz ve sorunsuz hale
               getirmeyi hedefliyoruz.
             </p>
             <p className="text-gray-600">
