@@ -1,6 +1,6 @@
-import Image from "next/image"
-import Link from "next/link"
-import { CheckCircle, Users, Award, Truck } from "lucide-react"
+import Image from "next/image";
+import Link from "next/link";
+import { CheckCircle, Users, Award, Truck } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -10,7 +10,8 @@ export default function AboutPage() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Hakkımızda</h1>
           <p className="text-lg text-gray-600">
-            Karizma Nakliyat olarak 20 yılı aşkın süredir konteyner, proje, parsiyel taşımacılığında kaliteli hizmet sunuyoruz.
+            Karizma Nakliyat olarak 20 yılı aşkın süredir konteyner, proje,
+            parsiyel taşımacılığında kaliteli hizmet sunuyoruz.
           </p>
         </div>
 
@@ -20,18 +21,21 @@ export default function AboutPage() {
             <div className="p-8 lg:p-12">
               <h2 className="text-2xl font-bold mb-6">Biz Kimiz?</h2>
               <p className="text-gray-600 mb-4">
-                Karizma Nakliyat, 1998 yılında İstanbul'da kurulmuş, ev ve ofis taşımacılığı alanında uzmanlaşmış bir
-                nakliyat firmasıdır. Kurulduğumuz günden bu yana müşteri memnuniyetini ön planda tutarak, güvenilir ve
-                kaliteli hizmet sunmayı ilke edindik.
+                Karizma Nakliyat, 1998 yılında İstanbul'da kurulmuş, konteyner
+                taşımacılığı ve proje lojistiği alanında uzmanlaşmış bir
+                nakliyat firmasıdır. Kurulduğumuz günden bu yana müşteri
+                memnuniyetini ön planda tutarak, güvenilir ve kaliteli hizmet
+                sunmayı ilke edindik.
               </p>
               <p className="text-gray-600 mb-4">
-                Deneyimli ekibimiz ve modern araç filomuzla, Türkiye'nin her noktasına taşımacılık hizmeti
-                veriyoruz. yüklerinizi sorunsuz ve özenle taşıyor, her aşamada profesyonel çözümler
-                sunuyoruz.
+                Deneyimli ekibimiz ve modern araç filomuzla, Türkiye'nin her
+                noktasına taşımacılık hizmeti veriyoruz. Yüklerinizi sorunsuz ve
+                özenle taşıyor, her aşamada profesyonel çözümler sunuyoruz.
               </p>
               <p className="text-gray-600 mb-6">
-                Karizma Nakliyat olarak amacımız, taşınma sürecini sizin için stressiz ve sorunsuz hale getirmektir. Bu
-                doğrultuda, yüklemeden tüm süreçlere kadar yanınızda oluyoruz.
+                Karizma Nakliyat olarak amacımız, taşıma sürecini sizin için
+                stressiz ve sorunsuz hale getirmektir. Bu doğrultuda, yüklemeden
+                teslimata kadar tüm süreçlerde yanınızda oluyoruz.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -63,7 +67,12 @@ export default function AboutPage() {
             </div>
 
             <div className="relative min-h-[300px] lg:min-h-full">
-              <Image src="/images/ekip.jpg" alt="Karizma Nakliyat Ekibi" fill className="object-cover" />
+              <Image
+                src="/images/ekip.jpg"
+                alt="Karizma Nakliyat Ekibi"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
@@ -121,36 +130,41 @@ export default function AboutPage() {
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold mb-4">Misyonumuz</h2>
             <p className="text-gray-600 mb-4">
-              Karizma Nakliyat olarak misyonumuz, müşterilerimize en kaliteli, güvenilir ve uygun fiyatlı taşımacılık
-              hizmetini sunmaktır.Karizma Nakliyat olarak taşınma sürecini sizin için stressiz ve sorunsuz hale
-              getirmeyi hedefliyoruz.
+              Karizma Nakliyat olarak misyonumuz, müşterilerimize en kaliteli,
+              güvenilir ve uygun fiyatlı taşımacılık hizmetini sunmaktır.Karizma
+              Nakliyat olarak taşınma sürecini sizin için stressiz ve sorunsuz
+              hale getirmeyi hedefliyoruz.
             </p>
             <p className="text-gray-600">
-              Her müşterimizin ihtiyaçlarını anlayarak, kişiselleştirilmiş çözümler sunmak ve sektörde fark yaratmak
-              için çalışıyoruz.
+              Her müşterimizin ihtiyaçlarını anlayarak, kişiselleştirilmiş
+              çözümler sunmak ve sektörde fark yaratmak için çalışıyoruz.
             </p>
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold mb-4">Vizyonumuz</h2>
             <p className="text-gray-600 mb-4">
-              Vizyonumuz, Türkiye'nin ve dünyanın önde gelen nakliyat firmalarından biri olmak ve sektörde kalite
-              standartlarını belirlemektir. Teknolojik yenilikleri takip ederek, hizmet kalitemizi sürekli artırmayı ve
-              müşteri memnuniyetini en üst seviyede tutmayı hedefliyoruz.
+              Vizyonumuz, Türkiye'nin ve dünyanın önde gelen nakliyat
+              firmalarından biri olmak ve sektörde kalite standartlarını
+              belirlemektir. Teknolojik yenilikleri takip ederek, hizmet
+              kalitemizi sürekli artırmayı ve müşteri memnuniyetini en üst
+              seviyede tutmayı hedefliyoruz.
             </p>
             <p className="text-gray-600">
-              Çevreye duyarlı taşımacılık çözümleri geliştirerek, sürdürülebilir bir gelecek için sorumluluk almayı
-              önemsiyoruz.
+              Çevreye duyarlı taşımacılık çözümleri geliştirerek, sürdürülebilir
+              bir gelecek için sorumluluk almayı önemsiyoruz.
             </p>
           </div>
         </div>
 
         {/* CTA Section */}
         <div className="bg-blue-700 text-white rounded-lg p-8 text-center">
-          <h2 className="text-2xl font-bold mb-4">Profesyonel Nakliyat Hizmetimizden Yararlanın</h2>
+          <h2 className="text-2xl font-bold mb-4">
+            Profesyonel Nakliyat Hizmetimizden Yararlanın
+          </h2>
           <p className="text-lg mb-6 max-w-2xl mx-auto">
-            Karizma Nakliyat ile taşınmak güvenli, hızlı ve ekonomik. Ücretsiz keşif ve fiyat teklifi için hemen
-            iletişime geçin.
+            Karizma Nakliyat ile yükünüzü taşımak güvenli, hızlı ve ekonomik. Ücretsiz
+            keşif ve fiyat teklifi için hemen iletişime geçin.
           </p>
           <Link
             href="/iletisim"
@@ -161,5 +175,5 @@ export default function AboutPage() {
         </div>
       </div>
     </div>
-  )
+  );
 }

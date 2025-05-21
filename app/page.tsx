@@ -26,6 +26,7 @@ export default function HomePage() {
     { name: "BARSAN GlobaL", logo: "/images/references/barsan.png" },
   ];
 
+  
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section - Daha etkileyici ve modern */}
