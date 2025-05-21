@@ -74,13 +74,12 @@ export default function PartialTransportPage() {
                     Karizma Nakliyat olarak, parsiyel taşımacılık hizmetimiz ile
                     küçük hacimli yüklerinizi ekonomik ve hızlı bir şekilde
                     taşıyoruz. Parsiyel taşımacılık, tam araç kapasitesini
-                    doldurmayan yüklerin, aynı yöne giden diğer yüklerle
+                    doldurmayan yüklerin yüklerle
                     birleştirilerek taşınması anlamına gelir.
                   </p>
                   <p className="text-gray-600 mb-4">
-                    Bu hizmet, özellikle küçük ve orta ölçekli işletmeler,
-                    e-ticaret firmaları ve bireysel müşteriler için ideal bir
-                    çözümdür. Tam araç kiralamak yerine, sadece kullandığınız
+                    Bu hizmetimiz ithalat ve ihracat yapan firmalar için bire bir
+                    çözümdür sadece kullandığınız
                     alan kadar ödeme yaparak maliyetlerinizi önemli ölçüde
                     düşürebilirsiniz.
                   </p>
@@ -206,13 +205,13 @@ export default function PartialTransportPage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-800 mb-1">
-                          Konsolidasyon
+                          Depolama
                         </h4>
                         <p className="text-gray-600">
-                          Yükünüz depomuza getirilir, aynı yöne giden diğer
-                          yüklerle birleştirilir ve sevkiyata hazırlanır.
+                          Yükünüz, güvenli depolarımızda bekletilir ve
+                          düzenli olarak kontrol edilir.
                         </p>
-                      </div>
+                      </div>                  
                     </div>
                     <div className="flex gap-4">
                       <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center shrink-0">
@@ -247,12 +246,6 @@ export default function PartialTransportPage() {
                       Kimler İçin Uygundur?
                     </h3>
                     <ul className="space-y-2">
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
-                        <span className="text-gray-700">
-                          E-ticaret firmaları
-                        </span>
-                      </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
                         <span className="text-gray-700">
@@ -301,7 +294,7 @@ export default function PartialTransportPage() {
                       </h4>
                       <p className="text-gray-600">
                         Parsiyel taşımacılık, tam araç kapasitesini doldurmayan
-                        yüklerin, aynı yöne giden diğer yüklerle birleştirilerek
+                        yüklerin diğer yüklerle birleştirilerek
                         taşınması anlamına gelir. Bu sayede, müşteriler sadece
                         kullandıkları alan kadar ödeme yaparlar.
                       </p>
@@ -312,9 +305,7 @@ export default function PartialTransportPage() {
                         sağlayabilirim?
                       </h4>
                       <p className="text-gray-600">
-                        Parsiyel taşımacılık ile tam araç kiralamaya göre %30-60
-                        arasında tasarruf sağlayabilirsiniz. Tasarruf miktarı,
-                        yükünüzün boyutu, ağırlığı ve varış noktasına göre
+                        Tasarruf miktarı, yükünüzün boyutu, ağırlığı ve varış noktasına göre
                         değişiklik gösterir.
                       </p>
                     </div>

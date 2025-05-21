@@ -102,7 +102,7 @@ export default function IntercityTransportPage() {
                     destek sağlıyoruz.
                   </p>
                   <p className="text-gray-600 mb-6">
-                    Tüm taşımalar, özel ekipmanlarla yapılır ve sigorta
+                    Tüm taşımalar, özel ekibimizle yapılır ve sigorta
                     kapsamındadır. Teslimatlar zamanında ve eksiksiz olarak
                     gerçekleştirilir.
                   </p>
@@ -171,8 +171,8 @@ export default function IntercityTransportPage() {
                           Hazırlık
                         </h4>
                         <p className="text-gray-600">
-                          Yükleriniz güvenli taşıma için özel ekipmanlarla
-                          hazırlanır ve ambalajlanır.
+                          Yükleriniz güvenli taşıma için ekibimizle özel olarak
+                          hazırlanır 
                         </p>
                       </div>
                     </div>

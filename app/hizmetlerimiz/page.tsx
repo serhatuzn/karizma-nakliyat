@@ -153,8 +153,8 @@ export default function ServicesPage() {
           <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
             <div className="relative h-48">
               <Image
-                src="/images/uluslararasi-tasima.jpg"
-                alt="Uluslararası Taşıma Hizmeti"
+                src="/images/depolama.jpg"
+                alt="Depolama Hizmeti"
                 fill
                 className="object-cover"
               />
@@ -169,7 +169,7 @@ export default function ServicesPage() {
                 nakliye konusunda deneyimli ekibimizle hizmetinizdeyiz.
               </p>
               <Link
-                href="/hizmetlerimiz/uluslararasi-tasima"
+                href="/hizmetlerimiz/depolama"
                 className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center"
               >
                 Detaylı Bilgi
